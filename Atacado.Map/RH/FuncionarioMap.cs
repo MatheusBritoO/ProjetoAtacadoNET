@@ -16,13 +16,25 @@ namespace Atacado.Map.Estoque
             FuncionarioPOCO poco = new  FuncionarioPOCO();
             poco.Codigo = modelo.Codigo;
             poco.Nome = modelo.Nome;
-            poco. = modelo.Situacao;
+            poco.SobreNome = modelo.SobreNome;
+            poco.Sexo = modelo.Sexo;
+            poco.Rg = modelo.Rg;
+            poco.Cpf = modelo.Cpf;
+            poco.Email = modelo.Email;
+            poco.Endereco = modelo.Endereco;
+            poco.DtNascimento = modelo.DtNascimento;
+            poco.Idade = modelo.Idade;
+            poco.Telefone = modelo.Telefone;
+            poco.Altura = modelo.Altura;
+            poco.Peso = modelo.Peso;
+            poco.Nacionalidade = modelo.Nacionalidade;
+            poco.Naturalidade = modelo.Naturalidade;           
             return poco;
         }
 
-        public static Funcionario ConverterParaModelo(FuncionarioPOCO poco)
-        {
-            return new Funcionario(poco.Codigo, poco.Descricao, poco.Situacao);
-        }
+        //public static Funcionario ConverterParaModelo(FuncionarioPOCO poco)
+       // {
+            //return new Funcionario(poco.Codigo);
+        //}
     }
 }
