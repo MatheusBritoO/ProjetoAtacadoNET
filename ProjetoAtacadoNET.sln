@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtacadoWinApp", "AtacadoWin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafiosDaGripe01", "DesafiosDaGripe01\DesafiosDaGripe01.csproj", "{D77E907F-8D83-4F39-B47C-92C244D5EB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.DAL", "Atacado.DAL\Atacado.DAL.csproj", "{0D9BA583-53C1-4D44-AF91-8A67CB3921AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.DAL", "Atacado.DAL\Atacado.DAL.csproj", "{0D9BA583-53C1-4D44-AF91-8A67CB3921AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAtacadoDAL", "TesteAtacadoDAL\TesteAtacadoDAL.csproj", "{6BF67693-C8D0-4AE1-B1FC-926B702086E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteAtacadoDAL", "TesteAtacadoDAL\TesteAtacadoDAL.csproj", "{6BF67693-C8D0-4AE1-B1FC-926B702086E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.POCO", "Atacado.POCO\Atacado.POCO.csproj", "{ADC23BBA-A060-4550-B454-E8F17A2D4B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Map", "Atacado.Map\Atacado.Map.csproj", "{93CB0AAF-5EB3-4C8A-8952-EF896592FD06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAtacadoMap", "TesteAtacadoMap\TesteAtacadoMap.csproj", "{ED821BBD-33EE-4621-86B4-65BEFE600D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{6BF67693-C8D0-4AE1-B1FC-926B702086E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF67693-C8D0-4AE1-B1FC-926B702086E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF67693-C8D0-4AE1-B1FC-926B702086E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC23BBA-A060-4550-B454-E8F17A2D4B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC23BBA-A060-4550-B454-E8F17A2D4B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC23BBA-A060-4550-B454-E8F17A2D4B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC23BBA-A060-4550-B454-E8F17A2D4B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CB0AAF-5EB3-4C8A-8952-EF896592FD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CB0AAF-5EB3-4C8A-8952-EF896592FD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CB0AAF-5EB3-4C8A-8952-EF896592FD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CB0AAF-5EB3-4C8A-8952-EF896592FD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED821BBD-33EE-4621-86B4-65BEFE600D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED821BBD-33EE-4621-86B4-65BEFE600D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED821BBD-33EE-4621-86B4-65BEFE600D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED821BBD-33EE-4621-86B4-65BEFE600D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
