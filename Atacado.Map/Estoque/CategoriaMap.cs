@@ -10,16 +10,16 @@ namespace Atacado.Map.Estoque
 {
     public static class CategoriaMap
     {
-        public static CategoriaPOCO ConverterParaPoco(Categoria modelo)
+        public static CategoriaPOCO ConverterParaPoco(Categoria dominio)
         {
             CategoriaPOCO poco = new CategoriaPOCO();
-            poco.Codigo = modelo.Codigo;
-            poco.Descricao = modelo.Descricao;
-            poco.Situacao = modelo.Situacao;
+            poco.Codigo = dominio.Codigo;
+            poco.Descricao = dominio.Descricao;
+            poco.Situacao = dominio.Situacao;
             return poco;
         }
 
-        public static Categoria ConverterParaModelo(CategoriaPOCO poco)
+        public static Categoria ConverterParaDomain(CategoriaPOCO poco)
         {
             return new Categoria(poco.Codigo, poco.Descricao, poco.Situacao);    
         }

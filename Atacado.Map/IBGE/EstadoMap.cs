@@ -1,5 +1,5 @@
 ﻿using Atacado.Domain.IBGE;
-using Atacado.POCO.Estoque;
+using Atacado.POCO.IBGE;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,6 +1,6 @@
 ﻿using Atacado.Domain.Estoque;
 using Atacado.Domain.RH;
-using Atacado.POCO.Estoque;
+using Atacado.POCO.RH;
 using System;
 using System.Collections.Generic;
 using System.Linq;
