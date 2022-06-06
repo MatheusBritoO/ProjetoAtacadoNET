@@ -1,5 +1,5 @@
-﻿using Atacado.Modelo.Estoque;
-using Atacado.Modelo.RH;
+﻿using Atacado.Domain.Estoque;
+using Atacado.Domain.RH;
 using Atacado.POCO.Estoque;
 using System;
 using System.Collections.Generic;

@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Atacado.DAL\Atacado.DAL.csproj" />
+    <ProjectReference Include="..\Atacado.Domain\Atacado.Domain.csproj" />
+    <ProjectReference Include="..\Atacado.FakeDB\Atacado.FakeDB.csproj" />
+    <ProjectReference Include="..\Atacado.Service\Atacado.Service.csproj" />
+  </ItemGroup>
+
 </Project>

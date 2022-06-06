@@ -1,6 +1,6 @@
 ﻿using Atacado.FakeDB.RH;
-using Atacado.Modelo.IBGE;
-using Atacado.Modelo.RH;
+using Atacado.Domain.IBGE;
+using Atacado.Domain.RH;
 using DesafiosDaGripe01;
 using FakeDB.IBGE;
 

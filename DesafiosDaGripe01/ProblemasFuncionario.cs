@@ -1,5 +1,5 @@
 ﻿using System;
-using Atacado.Modelo.RH;
+using Atacado.Domain.RH;
 using Atacado.FakeDB.RH;
 using System.Collections.Generic;
 using System.Linq;
@@ -79,7 +79,7 @@ namespace DesafiosDaGripe01
             Funcionario teste = FuncionarioFakeDB.Funcionarios.SingleOrDefault(fun => fun.Codigo == codigo);
             if (teste != null)
             {
-                teste.Situacao = Atacado.Modelo.Ancestral.SituacaoEnum.Ativo;
+                teste.Situacao = Atacado.Domain.Ancestral.SituacaoEnum.Ativo;
             }
             return teste;
         }
@@ -89,7 +89,7 @@ namespace DesafiosDaGripe01
             Funcionario teste = FuncionarioFakeDB.Funcionarios.SingleOrDefault(fun => fun.Codigo == codigo);
             if (teste != null)
             {
-                teste.Situacao = Atacado.Modelo.Ancestral.SituacaoEnum.Inativo;
+                teste.Situacao = Atacado.Domain.Ancestral.SituacaoEnum.Inativo;
             }
             return teste;
         }

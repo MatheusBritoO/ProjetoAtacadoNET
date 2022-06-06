@@ -1,10 +1,10 @@
 ﻿using Atacado.DAL.Estoque;
 using Atacado.DAL.IBGE;
-using Atacado.DAL.RH;
+using Atacado.DAL.RH.Admin;
 using Atacado.FakeDB.RH;
-using Atacado.Modelo.Estoque;
-using Atacado.Modelo.IBGE;
-using Atacado.Modelo.RH;
+using Atacado.Domain.Estoque;
+using Atacado.Domain.IBGE;
+using Atacado.Domain.RH;
 using FakeDB.IBGE;
 
 namespace TesteAtacadoDAL

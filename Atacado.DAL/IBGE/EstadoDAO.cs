@@ -1,5 +1,5 @@
 ﻿using Atacado.DAL.Ancestral;
-using Atacado.Modelo.IBGE;
+using Atacado.Domain.IBGE;
 using FakeDB.IBGE;
 using System;
 using System.Collections.Generic;
