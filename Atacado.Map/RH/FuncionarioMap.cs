@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atacado.Map.Estoque
+namespace Atacado.Map.RH
 {
     public static class FuncionarioMap
     {
@@ -32,9 +32,25 @@ namespace Atacado.Map.Estoque
             return poco;
         }
 
-        //public static Funcionario ConverterParaModelo(FuncionarioPOCO poco)
-       // {
-            //return new Funcionario(poco.Codigo);
-        //}
+        public static Funcionario ConverterParaDomain(FuncionarioPOCO poco)
+        {
+            return new Funcionario(
+                poco.Codigo,
+                poco.Telefone,
+                poco.Email,
+                poco.Endereco,
+                poco.Nome,
+                poco.SobreNome,
+                poco.Idade,
+                poco.Altura,
+                poco.Peso,
+                poco.DtNascimento,
+                poco.Naturalidade,
+                poco.Nacionalidade,
+                poco.Sexo,
+                poco.Cpf,
+                poco.Rg
+                );
+        }
     }
 }

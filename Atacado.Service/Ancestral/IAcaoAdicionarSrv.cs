@@ -9,7 +9,7 @@ namespace Atacado.Service.Ancestral
 {
     public interface IAcaoAdicionarSrv<T>
      {
-        T Adicionar(CategoriaPOCO obj);
+        T Adicionar(T obj);
     }
 
 }

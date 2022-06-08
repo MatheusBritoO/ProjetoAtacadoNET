@@ -25,9 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Services", "2-Services", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-DAL", "3-DAL", "{4FF2A2EE-386B-4E4D-8628-54B478FBD1DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Domain", "Atacado.Domain\Atacado.Domain.csproj", "{D1D22DFC-AF25-4C86-A112-D2533D91EB51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.Domain", "Atacado.Domain\Atacado.Domain.csproj", "{D1D22DFC-AF25-4C86-A112-D2533D91EB51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Service", "Atacado.Service\Atacado.Service.csproj", "{BFCBC629-BF0B-4638-AF8F-F02F0113D839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.Service", "Atacado.Service\Atacado.Service.csproj", "{BFCBC629-BF0B-4638-AF8F-F02F0113D839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Business", "Atacado.Business\Atacado.Business.csproj", "{ED58DC5A-60D2-4B6F-9F66-0E7DC8CB1269}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{BFCBC629-BF0B-4638-AF8F-F02F0113D839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFCBC629-BF0B-4638-AF8F-F02F0113D839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFCBC629-BF0B-4638-AF8F-F02F0113D839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED58DC5A-60D2-4B6F-9F66-0E7DC8CB1269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED58DC5A-60D2-4B6F-9F66-0E7DC8CB1269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED58DC5A-60D2-4B6F-9F66-0E7DC8CB1269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED58DC5A-60D2-4B6F-9F66-0E7DC8CB1269}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{ED821BBD-33EE-4621-86B4-65BEFE600D4A} = {597A5094-8E32-467E-BD20-FB5B207EA98A}
 		{D1D22DFC-AF25-4C86-A112-D2533D91EB51} = {4FF2A2EE-386B-4E4D-8628-54B478FBD1DC}
 		{BFCBC629-BF0B-4638-AF8F-F02F0113D839} = {DABD8B42-4C4A-4D69-BCF3-8653F1964DCC}
+		{ED58DC5A-60D2-4B6F-9F66-0E7DC8CB1269} = {DABD8B42-4C4A-4D69-BCF3-8653F1964DCC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C4ADC4F-27F6-4589-B207-9329C22C27C3}

@@ -59,7 +59,7 @@ namespace Atacado.Service.Estoque
             if (dom != null)
                 return CategoriaMap.ConverterParaPoco(dom);
             else
-                return null;                
+                return null;
         }
     }
 }

@@ -21,7 +21,7 @@ namespace Atacado.Map.Estoque
             return poco;
         }
 
-        public static Produto ConverterParaModelo(ProdutoPOCO poco)
+        public static Produto ConverterParaDomain(ProdutoPOCO poco)
         {
             return new Produto(poco.Codigo,poco.CodigoCategoria,poco.CodigoSubcategoria, poco.Descricao, poco.Situacao);
         }

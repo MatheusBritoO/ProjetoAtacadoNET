@@ -8,6 +8,8 @@ namespace Atacado.Service.Ancestral
 {
     public interface IAcaoValidarSrv<T>
     {
+        List<string> MensagensDeErro { get; }
+        
         bool Validar(T obj);
     }
 }

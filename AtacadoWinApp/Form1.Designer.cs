@@ -28,12 +28,83 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.OiMundoBtn = new System.Windows.Forms.Button();
+            this.FecharBtn = new System.Windows.Forms.Button();
+            this.CpfLbl = new System.Windows.Forms.Label();
+            this.CpfTxt = new System.Windows.Forms.TextBox();
+            this.ValidarBtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // OiMundoBtn
+            // 
+            this.OiMundoBtn.Location = new System.Drawing.Point(12, 12);
+            this.OiMundoBtn.Name = "OiMundoBtn";
+            this.OiMundoBtn.Size = new System.Drawing.Size(120, 23);
+            this.OiMundoBtn.TabIndex = 0;
+            this.OiMundoBtn.Text = "Clique Aqui!!!";
+            this.OiMundoBtn.UseVisualStyleBackColor = true;
+            this.OiMundoBtn.Click += new System.EventHandler(this.OiMundoBtn_Click);
+            // 
+            // FecharBtn
+            // 
+            this.FecharBtn.Location = new System.Drawing.Point(713, 415);
+            this.FecharBtn.Name = "FecharBtn";
+            this.FecharBtn.Size = new System.Drawing.Size(75, 23);
+            this.FecharBtn.TabIndex = 1;
+            this.FecharBtn.Text = "Fechar";
+            this.FecharBtn.UseVisualStyleBackColor = true;
+            this.FecharBtn.Click += new System.EventHandler(this.FecharBtn_Click);
+            // 
+            // CpfLbl
+            // 
+            this.CpfLbl.AutoSize = true;
+            this.CpfLbl.Location = new System.Drawing.Point(12, 102);
+            this.CpfLbl.Name = "CpfLbl";
+            this.CpfLbl.Size = new System.Drawing.Size(97, 15);
+            this.CpfLbl.TabIndex = 2;
+            this.CpfLbl.Text = "CPF Funcionário:";
+            // 
+            // CpfTxt
+            // 
+            this.CpfTxt.Location = new System.Drawing.Point(115, 99);
+            this.CpfTxt.Name = "CpfTxt";
+            this.CpfTxt.Size = new System.Drawing.Size(150, 23);
+            this.CpfTxt.TabIndex = 3;
+            // 
+            // ValidarBtn
+            // 
+            this.ValidarBtn.Location = new System.Drawing.Point(190, 128);
+            this.ValidarBtn.Name = "ValidarBtn";
+            this.ValidarBtn.Size = new System.Drawing.Size(75, 23);
+            this.ValidarBtn.TabIndex = 4;
+            this.ValidarBtn.Text = "Validar";
+            this.ValidarBtn.UseVisualStyleBackColor = true;
+            this.ValidarBtn.Click += new System.EventHandler(this.ValidarBtn_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ValidarBtn);
+            this.Controls.Add(this.CpfTxt);
+            this.Controls.Add(this.CpfLbl);
+            this.Controls.Add(this.FecharBtn);
+            this.Controls.Add(this.OiMundoBtn);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private Button OiMundoBtn;
+        private Button FecharBtn;
+        private Label CpfLbl;
+        private TextBox CpfTxt;
+        private Button ValidarBtn;
     }
 }

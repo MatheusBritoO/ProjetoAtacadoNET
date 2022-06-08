@@ -20,7 +20,7 @@ namespace Atacado.Map.Estoque
             return poco;
         }
 
-        public static Subcategoria ConverterParaModelo(SubcategoriaPOCO poco)
+        public static Subcategoria ConverterParaDomain(SubcategoriaPOCO poco)
         {
             return new Subcategoria(poco.Codigo,poco.CodigoCategoria, poco.Descricao, poco.Situacao);
         }
